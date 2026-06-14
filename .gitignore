@@ -1,0 +1,19 @@
+# --- Security (CRITICAL) ---
+.env
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- Python & Notebook Cache ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Datasets (CRITICAL: Do not upload 50,000+ images to GitHub) ---
+dataset/
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
