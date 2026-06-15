@@ -15,6 +15,13 @@ This project utilizes a modern, decoupled architecture:
 4. **🤖 AgriBot (Vision Enabled):** Multi-modal AI assistant for interactive, multilingual farming advice.
 5. **🏛️ Govt Schemes Matcher:** Dynamic regional matching for government agricultural support.
 
+### 🔑 Environment Setup
+This project uses the Google Gemini API for intelligent agricultural advice. You will need to provide your own API key to run the backend locally.
+
+1. Navigate to the `backend` directory.
+2. Duplicate the `.env.example` file and rename the copy to `.env`.
+3. Open the new `.env` file and replace `"your_api_key_here"` with your actual Gemini API key.
+
 ## ⚙️ How to Run Locally
 1. Clone the repository: `git clone https://github.com/GudavalliAchyuth/AgroInsight.git`
 2. Install dependencies: `pip install -r requirements.txt`
